@@ -1,0 +1,115 @@
+body {
+    background-color: #115ff4;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  td {
+    width: 50px;
+    height: 50px;
+  }
+  
+  th {
+    width: 50px;
+    height: 25px;
+  }
+  
+  #restart-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #table-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  #restart {
+    background-color: #8d2ab5;
+    padding: 1em 3em;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 1em;
+    margin: 0.5em 0; 
+  }
+  
+  
+  #restart:hover {
+    background-color: #74119c;
+  }
+  
+  #restart, td {
+    cursor: pointer;
+  }
+  
+  #jeopardy {
+    text-align: center;
+    font-size: 9pt;
+    background-color: #060ce9;
+    color: white;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  #jeopardy-table {
+    width: 800px;
+    padding: 10px;
+  }
+  
+  .table-title {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .table-question {
+    background-color: darkblue;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 15px 10px 15px 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .table-clue {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 15px 10px 15px 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .table-answer {
+    background-color: green;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 15px 10px 15px 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  #progress-indicator-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #progress-indicator {
+    display: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    border-top-color: #007bff;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
